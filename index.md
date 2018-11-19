@@ -6,10 +6,10 @@ address: "Holt Conference Rooms 1405 & 1410, 10 Discovery Drive, Farmington, Con
 country: "us"
 language: "en"
 latlng: "41.732190,-72.793431"
-humandate: "Jan 30-31, 2019"
-humantime: "9:00 am - 4:30 pm"
-startdate: 2019-01-30
-enddate: 2019-01-31
+humandate: "Jan 31-Feb 1, 2019"
+humantime: "1:30 pm - 4:30 pm"
+startdate: 2019-01-31
+enddate: 2019-02-01
 instructor: ["Dave Mellert"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["susan.mcclatchy@jax.org"]
