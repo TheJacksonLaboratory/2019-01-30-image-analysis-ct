@@ -11,7 +11,7 @@ humantime: "1:30 pm - 4:30 pm"
 startdate: 2019-01-31
 enddate: 2019-02-01
 instructor: ["Dave Mellert"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Sue McClatchy"] 
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 52640820110
