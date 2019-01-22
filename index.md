@@ -180,16 +180,6 @@ eventbrite: 52640820110
 
 <hr/>
 
-{% comment %}
- SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-{% comment %}
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endcomment %}
-<hr/>
 
 
 {% comment %}
@@ -249,34 +239,6 @@ eventbrite: 52640820110
 
 <hr/>
 
-{% comment %}
-  SYLLABUS
-
-  Show what topics will be covered.
-
-  1. If your workshop is R rather than Python, remove the comment
-     around that section and put a comment around the Python section.
-  2. Some workshops will delete SQL.
-  3. Please make sure the list of topics is synchronized with what you
-     intend to teach.
-  4. You may need to move the div's with class="col-md-6" around inside
-     the div's with class="row" to balance the multi-column layout.
-
-  This is one of the places where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
-
-<hr/>
 
 {% comment %}
   SETUP
