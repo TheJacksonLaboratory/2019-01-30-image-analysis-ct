@@ -7,11 +7,11 @@ country: "us"
 language: "en"
 latlng: "41.732190,-72.793431"
 humandate: "Jan 31-Feb 1, 2019"
-humantime: "1:30 pm - 4:30 pm"
+humantime: "1:30 pm Thursday - 4:30 pm Friday"
 startdate: 2019-01-31
 enddate: 2019-02-01
 instructor: ["Dave Mellert"]
-helper: ["Sue McClatchy"] 
+helper: ["Sue McClatchy"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 52640820110
@@ -201,13 +201,35 @@ eventbrite: 52640820110
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+<div class="row">
+<div class="col-md-6">
+<h3>Thursday, January 31</h3>
+<table class="table table-striped">
+<tr> <td>13:30</td>  <td>Workshop overview</td> </tr>
+<tr> <td>13:45</td>  <td><a href="https://github.com/TheJacksonLaboratory/PythonImagingBasic/blob/master/lessons/0-Background_and_Setup.ipynb">Background and setup</a></td> </tr>
+<tr> <td>14:00</td>  <td>Images are arrays</td> </tr>
+<tr> <td>15:00</td>  <td>Coffee</td> </tr>
+<tr> <td>15:15</td>  <td>Images are arrays (continued)</td> </tr>
+<tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:30</td>  <td>End</td> </tr>
+</table>
+</div>
+<div class="col-md-6">
+<h3>Friday, February 1</h3>
+<table class="table table-striped">
+<tr> <td>09:00</td>  <td>Image I / O</td> </tr>
+<tr> <td>10:30</td>  <td>Coffee</td> </tr>
+<tr> <td>10:45</td>  <td>Filters and convolutions</td> </tr>
+<tr> <td>12:30</td>  <td>Lunch</td> </tr>
+<tr> <td>13:30</td>  <td>Morphology</td> </tr>
+<tr> <td>15:00</td>  <td>Coffee</td> </tr>
+<tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:30</td>  <td>End</td> </tr>
+
+</table>
+</div>
+</div>
+
 
 {% comment %}
   Collaborative Notes
