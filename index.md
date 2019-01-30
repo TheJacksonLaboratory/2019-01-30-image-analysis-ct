@@ -13,7 +13,7 @@ enddate: 2019-02-01
 instructor: ["Dave Mellert", "Bill Flynn"]
 helper: ["Sue McClatchy", "Pariksheet Nanda"]
 email: ["susan.mcclatchy@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2019-01-31-image-analysis-ct
 eventbrite: 52640820110
 ---
 
