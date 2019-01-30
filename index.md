@@ -10,8 +10,8 @@ humandate: "Jan 31-Feb 1, 2019"
 humantime: "1:30 pm Thursday - 4:30 pm Friday"
 startdate: 2019-01-31
 enddate: 2019-02-01
-instructor: ["Dave Mellert"]
-helper: ["Sue McClatchy"]
+instructor: ["Dave Mellert", "Bill Flynn"]
+helper: ["Sue McClatchy", "Pariksheet Nanda"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 52640820110
@@ -363,3 +363,55 @@ eventbrite: 52640820110
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+<div id="git"> {% comment %} Start of 'Git' section. {% endcomment %}
+<h3>Git</h3>
+<p>
+Git is a version control system that lets you track who made changes
+to what when and has options for easily updating a shared or public
+version of your code
+on <a href="https://github.com/">github.com</a>. You will need a
+<a href="https://help.github.com/articles/supported-browsers/">supported
+web browser</a>.
+</p>
+<p>
+You will need an account at <a href="https://github.com/">github.com</a>. Basic GitHub accounts are free. We encourage
+you to create a GitHub account if you don't have one already.
+Please consider what personal information you'd like to reveal. For
+example, you may want to review these
+<a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
+for keeping your email address private</a> provided at GitHub.
+</p>
+
+<div class="row">
+<div class="col-md-4">
+<h4 id="git-windows">Windows</h4>
+You will first need to install <a href="https://git-scm.com/download/win">git</a>.
+</div>
+<div class="col-md-4">
+<h4 id="git-macosx">macOS</h4>
+<a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
+<p>
+<strong>For OS X 10.9 and higher</strong>, install Git for Mac
+by downloading and running the most recent "mavericks" installer from
+<a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
+Because this installer is not signed by the developer, you may have to
+right click (control click) on the .pkg file, click Open, and click
+Open on the pop up window.
+After installing Git, there will not be anything in your <code>/Applications</code> folder,
+as Git is a command line program.
+<strong>For older versions of OS X (10.5-10.8)</strong> use the
+most recent available installer labelled "snow-leopard"
+<a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+</p>
+</div>
+<div class="col-md-4">
+<h4 id="git-linux">Linux</h4>
+<p>
+If Git is not already available on your machine you can try to
+install it via your distro's package manager. For Debian/Ubuntu run
+<code>sudo apt-get install git</code> and for Fedora run
+<code>sudo dnf install git</code>.
+</p>
+</div>
+</div>
+</div> {% comment %} End of 'Git' section. {% endcomment %}
