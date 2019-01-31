@@ -195,6 +195,7 @@ eventbrite: 52640820110
 <div class="col-md-6">
 <h3>Thursday, January 31</h3>
 <table class="table table-striped">
+<tr> <td>Before</td>  <td><a href="https://www.surveymonkey.com/r/image-analysis">Pre-workshop survey</a></td> </tr>
 <tr> <td>13:30</td>  <td>Workshop overview</td> </tr>
 <tr> <td>13:45</td>  <td><a href="https://github.com/TheJacksonLaboratory/PythonImagingBasic/blob/master/lessons/0-Background_and_Setup.ipynb">Background and setup</a></td> </tr>
 <tr> <td>14:00</td>  <td>Images are arrays</td> </tr>
@@ -213,9 +214,8 @@ eventbrite: 52640820110
 <tr> <td>12:30</td>  <td>Lunch</td> </tr>
 <tr> <td>13:30</td>  <td>Morphology</td> </tr>
 <tr> <td>15:00</td>  <td>Coffee</td> </tr>
-<tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+<tr> <td>16:15</td>  <td><a href="https://www.surveymonkey.com/r/post-image-analysis">Post-workshop survey</a></td> </tr>
 <tr> <td>16:30</td>  <td>End</td> </tr>
-
 </table>
 </div>
 </div>
