@@ -11,7 +11,7 @@ humantime: "1:30 pm Thursday - 4:30 pm Friday"
 startdate: 2019-01-31
 enddate: 2019-02-01
 instructor: ["Dave Mellert", "Bill Flynn"]
-helper: ["Sue McClatchy", "Pariksheet Nanda", "Ravi Pandey", "Sheldon McKay"]
+helper: ["Sue McClatchy", "Pariksheet Nanda", "Ravi Pandey", "Sheldon McKay", "Sandeep Namburi"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes: https://pad.carpentries.org/2019-01-31-image-analysis-ct
 eventbrite: 52640820110
